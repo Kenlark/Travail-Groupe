@@ -88,7 +88,7 @@ a {
 }
 
 .box {
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
 
 .p-photo {
@@ -105,4 +105,5 @@ a {
 .p-photo-lorem-lien {
     text-decoration: underline;
     color: rgb(174, 0, 0);
+    font-size: 15px;
 }
