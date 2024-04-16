@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+    font-family: montserrat, arial, serif; 
+    margin-left: 20%;
+    margin-right: 20%;
+    letter-spacing: 0.1em;    
+}
+h1 {
+    font-family: "Abril Fatface", sans-serif;
+    color: brown;
+
+}
+
+
+/* Aligner l'image au centre */
+.center { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+  }
+
+/* Style pour la bar de navigation */
+.space {
+    margin-right: 30px;
+    margin-top: -180px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.pied_de_page {
+  font-family: montserrat;
+  letter-spacing: 2em;
+}
+h2 ,h3 {
+    font-family: "Abril Fatface", sans-serif;
+    color: rgb(50, 35,148);
+
+}
+.container2 {
+    margin-top: 30px;
+
+}
+.illustration {
+    width: 35%;
+    float: right;
+
+    margin-top: -200px;
+}
+.linkedin {
+    width: 100px;
+    height: 40px;
+}
+
+.twitter {
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.medium {
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+}
+section{
+    height: 150px;
+    width: 380px;
+    background-color: red;
+}
