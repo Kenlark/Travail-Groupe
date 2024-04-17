@@ -37,12 +37,21 @@ li{
     margin-right: 20px;
     margin-top: 50px;
 }
-/* Style pour le formulaire */
+/* Taille du formulaire - fond en gradient*/
 main {
     width: 700px;
     height: 700px;
-    background-image: linear-gradient(to right, aqua , purple);
+    background-image: linear-gradient(to right, rgb(5, 214, 214) , rgb(150, 72, 150));
 
+}
+/* Bouton soumettre*/
+#submit {
+    background-color: brown;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
 }
 
 /* Aligner  au centre le formulaire*/
@@ -54,6 +63,7 @@ main {
 /* Largeur à 70% de la fenetre de saisir de données */
 .boite_saisir {
     width: 70%;
+    height: 30px;
 }
 
 /* Style pour le pied de page */
