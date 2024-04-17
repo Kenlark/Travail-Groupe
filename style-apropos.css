@@ -122,7 +122,19 @@ h2 ,h3 {
     margin-left: 150px;
     margin-top: 5px;
 }
-.image2, .image3{
-    width: 250px;
-    margin-left: 200px;
+.image3{
+    display: flex;
+    flex-direction: row;
+    
+}
+.image1{
+    width: 400px;
+    height: 400px;
+}
+.image2{
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
 }
