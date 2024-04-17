@@ -1,0 +1,111 @@
+body {
+    font-family: 'montserrat', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}    
+
+h1 {
+    font-family: 'abril fatface', sans-serif;
+    color: rgb(213, 90, 90);
+    font-weight: 300;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.space {
+    margin-right: 30px;
+    margin-top: -180px;
+}
+
+.logo {
+    width: 10%;
+    justify-content: left;
+    margin-left: 150px;
+}
+
+.container2 {
+    margin-right: 400px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.illustration {
+    width: 40%;
+    float: right;
+    margin-right: -230px;
+    margin-top: -250px;
+}
+
+.paragraphe {
+    font-weight: 500;
+    font-size: 200%;
+    opacity: 80%;
+    margin-left: 180px;
+    margin-top: 5px;
+}
+
+.linkedin {
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.twitter {
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.medium {
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+    margin-top: 100px;
+}
+
+.box img {
+    width: 95%;
+    height: 100%;
+}
+
+.box {
+    margin-bottom: 140px;
+}
+
+.p-photo {
+    font-size: 10px;
+    opacity: 60%;
+}
+
+.p-photo-lorem {
+    color: rgb(174, 0, 0);
+    font-size: 15px;
+    font-weight: 650;
+}
+
+.p-photo-lorem-lien {
+    text-decoration: underline;
+    color: rgb(174, 0, 0);
+    font-size: 15px;
+}
+.Video{
+    margin-left: 350px;
+}
