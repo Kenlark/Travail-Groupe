@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style-Contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Bar de navigation -->
+<header>
+    <nav>
+        <img src="images/logo.png" alt="" >
+        <ul>
+            <li><a href="Blog-Accueil.html">Blog</a> </li>
+            <li><a href="Blog-post.html" >CV</a> </li>
+            <li><a href="a-propos.html" class="space"> A Propos </a> </li>
+            <li><a href="Blog-Contact.html" class="space"> Contact </a> </li>
+        </ul>
+   </nav>
+</header>
+<main>
+
+    <h2 class="center">Blog Squedrong</h2>
+    <h3 class="center">5 rue Victor Hugo <br>
+        75000 Paris
+    </h3>
+    <h4 class="center">Tel 06 77 88 55 44</h4>
+    <form class="center" action="recup.php" method="post">
+        <!-- Saisir le nom-->
+        <p><label for="inom">Name</label> <br>
+        <input class="boite_saisir" type="text" name="nom" id="inom" placeholder="Enter your name" required></p>
+    
+        <!-- Saisir l'email--> 
+        <p> <label for="iemail">Email</label> <br>
+        <input class="boite_saisir" type="email" name="email" id="iemail" placeholder="Enter your Email" required> </p>
+        <p>Would you recommend this Blog to a friend? </p>
+        <input  type="radio" name="recommend" id="iyes">
+        <label  for="iyes">Definitely</label> <br>
+        <input  type="radio" name="recommend" id="imaybe">
+        <label for="imaybe">Maybe</label> <br>
+        <input  type="radio" name="recommend" id="ino">    
+        <label for="ino">Not sure</label>   
+
+        <!-- Saisir le commentaire-->
+
+        <p><label for="imsg">Any comments or suggestions?</label> <br>
+        <textarea name="msg" id="imsg" cols="40" rows="10" placeholder="Enter your comment here"></textarea> <br>
+    
+        <!-- Bouton sumit vert--> 
+        <input type="submit" value="Submit" id="submit">
+           
+
+    </form>
+
+</main>    
+<!--pied de page : info du auteur-->
+<footer>
+    <h1 class="pied_de_page"> A propos de l'auteur </h1>
+    <p class="pied_de_page" >Lorem ipsum dolor sit amet consectetur
+                elit. Ratione laudantium minima at debitis
+                quisquam facilis optio maiores cumque, voluptas
+                Incidunt nobis porro eveniet possimus.</p>  
+    <a href="images/linkedin-logo.png"> <img src="images/linkedin-logo.png" alt="" class="linkedin"> </a>
+    <a href="images/twitter.png"> <img src="images/twitter.png" alt="" class="twitter"> </a>
+    <a href="images/medium.jpg"> <img src="images/medium.jpg" alt="" class="medium"> </a>
+    <img src="images/illustration.png" alt="" class="illustration">            
+</footer>
+
+</body>
+</html>
