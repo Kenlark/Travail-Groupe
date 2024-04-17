@@ -1,8 +1,11 @@
+/* Font Montserrat appliquer au body en mettant aussi des margin left et right pour gérer l'espace de la taille de l'écran*/
 body {
     font-family: 'montserrat', sans-serif;
     margin-left: 15%;
     margin-right: 15%;
 }    
+
+/* Font AbrilFatFace pour titre h1*/
 
 h1 {
     font-family: 'abril fatface', sans-serif;
@@ -12,10 +15,14 @@ h1 {
     margin-top: 30px;
 }
 
+/* text decoration pour enlever l'underline auto sur les liens*/
+
 a {
     text-decoration: none;
     color: black;
 }
+
+/* Display flex pour mise en place des redirection (accueil/CV/etc..)*/
 
 .container {
     display: flex;
@@ -24,10 +31,14 @@ a {
     margin-right: 150px;
 }
 
+/* Mise en place des logos et gestion de leurs espacement*/
+
 .space {
     margin-right: 30px;
     margin-top: -180px;
 }
+
+/* Taille du logo et sa position*/
 
 .logo {
     width: 10%;
@@ -35,11 +46,15 @@ a {
     margin-left: 150px;
 }
 
+/* Position paragraphe et des images/liens*/
+
 .container2 {
     margin-right: 400px;
     margin-left: 180px;
     margin-top: 30px;
 }
+
+/* Gestion de la taille de l'image d'illustration et de sa position*/
 
 .illustration {
     width: 40%;
@@ -48,6 +63,8 @@ a {
     margin-top: -250px;
 }
 
+/* Gestion de la taile de la font, son style et sa position*/
+
 .paragraphe {
     font-weight: 500;
     font-size: 200%;
@@ -55,6 +72,8 @@ a {
     margin-left: 180px;
     margin-top: 5px;
 }
+
+/* Gestion des position et taille des 3 logos*/
 
 .linkedin {
     width: 150px;
@@ -74,6 +93,8 @@ a {
     margin-left: 30px;
 }
 
+/* Mise en place d'un display grid avec 2 colonnes et 3 lignes pour mise en place de 6 photos*/
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -81,25 +102,35 @@ a {
     margin-top: 100px;
 }
 
+/* Taille des images mise en place*/
+
 .box img {
     width: 95%;
     height: 100%;
 }
 
+/* Gestion du gap entre les images du dessous entre elles*/
+
 .box {
     margin-bottom: 140px;
 }
+
+/* Gestion taille paragraphe et opacité*/
 
 .p-photo {
     font-size: 10px;
     opacity: 60%;
 }
 
+/* Gestion taille paragraphe et couleur*/
+
 .p-photo-lorem {
     color: rgb(174, 0, 0);
     font-size: 15px;
     font-weight: 650;
 }
+
+/* Gestion taille paragraphe/couleur et lien souligné*/
 
 .p-photo-lorem-lien {
     text-decoration: underline;
