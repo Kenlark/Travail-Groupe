@@ -1,0 +1,98 @@
+body {
+    background-color: white;
+    font-family: montserrat, arial, serif; 
+    margin-left: 20%;
+    margin-right: 20%;
+    letter-spacing: 0.08em;    
+}
+h1 {
+    font-family: "Abril Fatface", sans-serif;
+    color: brown;
+}
+h2 ,h3 {
+    font-family: montserrat, sans-serif;
+    color: rgb(50, 35,148);
+}
+/* Style pour la bar de navigation */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    width: 150px;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+}
+li{
+    list-style-type: none;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+/* Taille du formulaire - fond en gradient*/
+main {
+    width: 700px;
+    height: 700px;
+    background-image: linear-gradient(to right, rgb(5, 214, 214) , rgb(150, 72, 150));
+
+}
+/* Bouton soumettre*/
+#submit {
+    background-color: brown;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+/* Aligner  au centre le formulaire*/
+.center  { 
+    display: block;
+    margin-left: 100px;
+  }
+
+/* Largeur à 70% de la fenetre de saisir de données */
+.boite_saisir {
+    width: 70%;
+    height: 30px;
+}
+
+/* Style pour le pied de page */
+
+footer {
+    margin-top: 30px;
+}
+.illustration {
+    width: 35%;
+    float: right;
+    margin-top: -200px;
+}
+.pied_de_page {
+    font-family: montserrat;
+    width: 380px;
+  }
+.linkedin {
+    width: 100px;
+    height: 40px;
+}
+
+.twitter {
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.medium {
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+}
