@@ -18,41 +18,42 @@
         <ul>
             <li><a href="Blog-Accueil.html">Blog</a> </li>
             <li><a href="Blog-post.html" >CV</a> </li>
-            <li><a href="a-propos.html" class="space"> A Propos </a> </li>
+            <li><a href="blog-apropos.html" class="space"> A Propos </a> </li>
             <li><a href="Blog-Contact.html" class="space"> Contact </a> </li>
         </ul>
    </nav>
 </header>
 <main>
-
+<!-- Address postal et téléphone -->
     <h2 class="center">Blog Squedrong</h2>
     <h3 class="center">5 rue Victor Hugo <br>
         75000 Paris
     </h3>
     <h4 class="center">Tel 06 77 88 55 44</h4>
+<!-- Formulaire de contact -->
     <form class="center" action="recup.php" method="post">
         <!-- Saisir le nom-->
-        <p><label for="inom">Name</label> <br>
-        <input class="boite_saisir" type="text" name="nom" id="inom" placeholder="Enter your name" required></p>
+        <p><label for="inom">Votre Nom *</label> <br>
+        <input class="boite_saisir" type="text" name="nom" id="inom" placeholder="Entrez votre nom complet" required></p>
     
         <!-- Saisir l'email--> 
-        <p> <label for="iemail">Email</label> <br>
-        <input class="boite_saisir" type="email" name="email" id="iemail" placeholder="Enter your Email" required> </p>
-        <p>Would you recommend this Blog to a friend? </p>
+        <p> <label for="iemail">Votre E-mail</label> <br>
+        <input class="boite_saisir" type="email" name="email" id="iemail" placeholder="ex nomutilisateur@example.com" required> </p>
+        <p>Recommandez-vous à vos amis ce Blog? </p>
         <input  type="radio" name="recommend" id="iyes">
-        <label  for="iyes">Definitely</label> <br>
+        <label  for="iyes">Certainement</label> <br>
         <input  type="radio" name="recommend" id="imaybe">
-        <label for="imaybe">Maybe</label> <br>
+        <label for="imaybe">Probablement</label> <br>
         <input  type="radio" name="recommend" id="ino">    
-        <label for="ino">Not sure</label>   
+        <label for="ino">Pas du tout</label>   
 
-        <!-- Saisir le commentaire-->
+        <!-- Saisir des commentaires et suggestions-->
 
-        <p><label for="imsg">Any comments or suggestions?</label> <br>
-        <textarea name="msg" id="imsg" cols="40" rows="10" placeholder="Enter your comment here"></textarea> <br>
+        <p><label for="imsg">Commentaires ou suggestions ? </label> <br>
+        <textarea name="msg" id="imsg" cols="40" rows="10" placeholder="Entrez votre message ici"></textarea> <br>
     
-        <!-- Bouton sumit vert--> 
-        <input type="submit" value="Submit" id="submit">
+        <!-- Bouton soumettre--> 
+        <input type="submit" value="Soumettre" id="submit">
            
 
     </form>
