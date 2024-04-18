@@ -38,10 +38,30 @@ a {
     margin-top: -180px;
 }
 
+/* Mise en place d'une transition :hover qui agrandit les logos/images quand on passe dessus sauf l'illustration*/
+
+a {
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+img:not(images/illustration.png) {
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+img:hover:not(images/illustration.png) {
+    transform: scale(1.1);
+}
+
 /* Taille du logo et sa position*/
 
 .logo {
-    width: 10%;
+    width: 50%;
     justify-content: left;
     margin-left: 150px;
 }
